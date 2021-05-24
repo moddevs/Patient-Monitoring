@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+.regestration__form {
+  /* background-image: url("../../images/reception.jpg"); */
+  /* background-color: rgb(192, 198, 252); */
+  background: linear-gradient(to top right, #3366ff 1%, #66ffff 70%);
+  height: 180vh;
+  background-size: contain;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.patientForm__body {
+  justify-content: space-evenly;
+  height: 37rem;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+}
+
+.patientForm {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  color: #000a2cfb;
+}
+
+.inputfield__container {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 2px;
+}
+
+.input__box {
+  width: 25rem;
+  padding: 1rem 1rem 1rem 1.5rem;
+  margin: 1.5rem 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: rgba(128, 93, 117, 0.281);
+  color: black;
+  font-size: 1.2rem;
+}
+
+.input__box:focus {
+  outline: none;
+  color: black;
+}
+
+.input__label {
+  margin: 1.7rem 0;
+}
+
+.patientForm__bodyRight {
+  padding: 3.984375rem 0;
+}
+
+.assignment__icon {
+  font-size: 3rem;
+}
+
+.register__h1 {
+  text-align: left;
+  color: #001352fb;
+}
+
+.check__label {
+  padding-bottom: 20px;
+}
+
+.formsubmit__btn,
+.detailedinfo__btn {
+  text-align: right;
+  align-items: right;
+  justify-content: right;
+}
+.detailedinfo__btn {
+  padding-right: 6rem !important;
+}
+
+.submitbtn {
+  background-color: rgb(8, 52, 112) !important;
+  margin-top: 2rem !important;
+  padding: 1rem 5rem !important;
+}
+.submitbtn:hover {
+  background-color: rgb(15, 68, 143) !important;
+}
+
+.details__btn:hover {
+  /* background-color: rgb(151, 191, 247) !important; */
+}
+/*===================================================== CUSTOM RADIO AND CHECKBOX ================================================================*/
+
+/**************** CUSTOM RADIO **************************/
+
+.control {
+  font-family: arial;
+  display: block;
+  position: relative;
+  /* padding-left: 30px; */
+  margin-bottom: 5px;
+  padding-top: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.control_indicator {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: #dceceb;
+  border: 0px solid #000000;
+  border-radius: undefinedpx;
+}
+.control:hover input ~ .control_indicator,
+.control input:focus ~ .control_indicator {
+  background: #d9ffff;
+}
+
+.control input:checked ~ .control_indicator {
+  background: #084c9f;
+}
+.control:hover input:not([disabled]):checked ~ .control_indicator,
+.control input:checked:focus ~ .control_indicator {
+  background: #012097;
+}
+.control input:disabled ~ .control_indicator {
+  background: #e6e6e6;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.control_indicator:after {
+  box-sizing: unset;
+  content: "";
+  position: absolute;
+  display: none;
+}
+.control input:checked ~ .control_indicator:after {
+  display: block;
+}
+.control-radio .control_indicator {
+  border-radius: 50%;
+}
+
+.control-radio .control_indicator:after {
+  left: 7px;
+  top: 7px;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: #ffffff;
+  transition: background 250ms;
+}
+.control-radio input:disabled ~ .control_indicator:after {
+  background: #7b7b7b;
+}
+
+/**************** CUSTOM CHECKBOX **************************/
+.control {
+  font-family: arial;
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 5px;
+  padding-top: 3px;
+  cursor: pointer;
+  font-size: 21px;
+}
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.control_indicator {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: #dceceb;
+  border: 0px solid #000000;
+  border-radius: 0px;
+}
+.control:hover input ~ .control_indicator,
+.control input:focus ~ .control_indicator {
+  background: #d9ffff;
+}
+
+.control input:checked ~ .control_indicator {
+  background: #00a3c1;
+}
+.control:hover input:not([disabled]):checked ~ .control_indicator,
+.control input:checked:focus ~ .control_indicator {
+  background: #012097;
+}
+.control input:disabled ~ .control_indicator {
+  background: #e6e6e6;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.control_indicator:after {
+  box-sizing: unset;
+  content: "";
+  position: absolute;
+  display: none;
+}
+.control input:checked ~ .control_indicator:after {
+  display: block;
+}
+.control-checkbox .control_indicator:after {
+  left: 8px;
+  top: 4px;
+  width: 3px;
+  height: 8px;
+  border: solid #ffffff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.control-checkbox input:disabled ~ .control_indicator:after {
+  border-color: #7b7b7b;
+}
+/*=================================================================================================================*/

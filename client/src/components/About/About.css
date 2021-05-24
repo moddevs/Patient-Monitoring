@@ -1,0 +1,16 @@
+.about {
+  background: rgb(165, 220, 169);
+  background: linear-gradient(
+    90deg,
+    rgba(165, 220, 169, 1) 0%,
+    rgba(40, 203, 83, 1) 100%
+  );
+}
+
+.about__header {
+  text-align: center;
+}
+
+.about__body {
+  padding: 80px;
+}

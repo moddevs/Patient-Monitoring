@@ -1,0 +1,8 @@
+.listDisplay {
+  display: flex;
+}
+.cross__icon {
+  color: red;
+  cursor: pointer;
+  margin-left: 20px;
+}

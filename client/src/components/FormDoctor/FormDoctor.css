@@ -1,0 +1,68 @@
+/* .formDoctor__right,
+.formDoctor__left {
+  padding: 3rem 0;
+} */
+
+.history__treatment {
+  display: flex;
+  flex-direction: column;
+}
+
+.listdisplay__delete {
+  padding-left: 25rem;
+}
+/* .list__container {
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+    flex: 1;
+    justify-content: right;
+    background-color: yellow;
+  } */
+
+.forAdd__btn {
+  position: relative;
+}
+.icon {
+  /* color: yellowgreen; */
+  position: absolute;
+  right: 18px;
+  bottom: 12px;
+  background: #23b100;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+.patientType__container {
+  /* align-items: left; */
+  /* text-align: left; */
+  justify-content: space-evenly;
+  /* background-color: yellow; */
+}
+
+.input__label__div {
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+}
+
+.inputField__PatientType {
+  display: flex;
+  flex: 1;
+  padding-left: 14rem;
+  justify-content: start !important;
+}
+
+.inputField__patientType__container {
+  padding: 0 10px;
+}
+
+.disabled__input {
+  color: rgb(104, 104, 104);
+  background-color: rgb(255, 255, 255, 0.5);
+}

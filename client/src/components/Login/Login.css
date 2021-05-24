@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
+.login__component {
+  height: 100%;
+}
+.login__body {
+  background-image: url("../../images/loginbackground.jpg");
+  /* background-color: aquamarine; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 37rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__body > h1 {
+  font-family: "Ubuntu", sans-serif;
+  margin: 2rem 0;
+  color: rgb(0, 5, 68);
+}
+
+.login__header {
+  display: flex;
+  background-color: rgb(231, 243, 250);
+  padding: 2rem 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.hospital__logo {
+  height: 6rem;
+  width: 6.2rem;
+  left: 5rem;
+}
+
+.login__header > h1 {
+  margin-left: 4rem;
+}
+
+.login__formComponent {
+  background-color: rgba(253, 236, 250, 0.6);
+  height: fit-content;
+  width: fit-content;
+  padding: 8px 2rem;
+  left: 12rem;
+  top: 10rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.loginform__input {
+  width: 25rem;
+  padding: 1rem 1rem 1rem 1.5rem;
+  margin: 1.5rem 0.5625rem;
+  margin-left: 10rem;
+  box-sizing: border-box;
+  border: 1px solid green;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.loginform__input:focus {
+  outline: none;
+  color: black;
+}
+
+/* .login__button{
+  background-color: rgb(26,84,168);  Green 
+  border: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.3rem;
+  margin: 1rem 0.125rem;
+  cursor: pointer;
+  padding: 0.3125rem 1.875rem;
+} */
+
+.btn__login {
+  background-color: rgb(26, 84, 168) !important;
+  margin: 1rem 0.125rem !important;
+}
+
+.secret__code {
+  margin-right: 1.21rem;
+}
